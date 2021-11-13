@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+body, html{
+    height: 100%;
+}
+body {
+    background-image: url("img/bc.jpg");
+    background-color: #cccccc;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    text-align: center;
+    height: 30vh;
+    background-color: #FF1D23;
+}
+main{
+    background-color:white ;
+    flex: 1 0 auto;
+    min-height: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+footer{
+    flex-shrink: 0;
+    height: 20vh;
+    background-color: #FF1D23;
+    padding-top: 10px;    
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #C1A56D;
+}
+
+h2{
+    font-family: 'Ephesis', cursive;
+    border-bottom: 2px red solid;
+    color: #C1A56D;
+    display: inline-block;
+}
+input{
+    padding-top: 5px;
+}
+table{
+    border: 3px solid #e6ad3b;
+}
+#imgC{
+    width: 200px;
+    height: 450px;
+    object-fit: cover;
+    object-position: 20% 10%;
+}
+#h1{
+    font-family: 'Ephesis', cursive;
+    border-bottom: 2px red solid;
+    color: #C1A56D;
+    display: inline-block;
+    padding-top: 20px;
+}
+#nome{
+    font-family: 'Ephesis', cursive;
+    font-size: 4em;
+    color: #C1A56D;
+    display: block;
+    margin: 0;
+}
+#cd{
+    border:1px #C1A56D solid;
+    border-radius: 15px;
+    height: auto;
+    width: 35vw;
+    padding-bottom: 10px;
+}
+#fS{
+    color: #C1A56D;
+    font-family: 'Ephesis', cursive;
+    font-size: 2em;
+    border-bottom: 1px #C1A56D solid;
+}
+
